@@ -11,6 +11,6 @@ It's just a wrapper around some subdomain enumeration and fingerprinting tools, 
   - [httpx](https://github.com/projectdiscovery/httpx)
   - [gau](https://github.com/lc/gau)
 # Notes:
-  You have to change the path variable with the path of your own DNS resolvers list to amass working.
+  You have to change the path variable with the path of your own DNS resolvers list to get amass working.
   
   Also make sure to tweak the number of threads of the tools based on your machine/need.
