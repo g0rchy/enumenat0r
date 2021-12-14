@@ -20,6 +20,7 @@ do
 	amass enum --passive -rf $path -d $domain >> domains.txt &
 	gau -subs $domain >> gau.txt &
 done
+wait
 
 echo -e "\n\e[0;32m[+]\e[0m Passive enumeration done"
 cat gau.txt | cut -d '/' -f 3 >> domains.txt
